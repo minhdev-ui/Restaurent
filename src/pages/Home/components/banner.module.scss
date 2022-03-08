@@ -1,0 +1,41 @@
+.bannerImg {
+    position: relative;
+}
+
+.bannerInner {
+    position: absolute;
+    top: 35%;
+    left: 200px;
+    color: #fff;
+    width: 700px;
+    h3 {
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+    h1{
+        font-size: 60px;
+        margin: 20px 0;
+    }
+    p{
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+    .btnLink{
+        min-height: 44px;
+        button {
+            font-size: 14px;
+            padding: 15px 30px;
+            border-radius: 32px;
+            border: 1px solid transparent;
+            color: #fff;
+            background-color:#f42f2c;
+            transition: 0.5s;
+            &:hover {
+                background-color: transparent;
+                border: 1px solid #fff;
+                cursor: pointer;
+            }
+        }
+    }
+}
